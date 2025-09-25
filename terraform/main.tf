@@ -21,6 +21,7 @@ module "vpc" {
   enable_nat_gateway = true
   single_nat_gateway = var.enable_single_nat_gateway
 
+
   # Internet Gateway
   create_igw = true
 
